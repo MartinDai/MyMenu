@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="SzEjlhKJnJJL1iPiEbOr6B4X65duNAVkDpBnmnzv3Is" />
+    <meta charset="UTF-8">
+    <title>Martin's Blog</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="This Blog is GitHub Pages">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+</head>
+<body>
+<div id="app">Loading...</div>
+<script>
+    window.$docsify = {
+        name: '小明的私房菜谱',
+        repo: 'https://github.com/MartinDai/MyMenu',
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md'
+        },
+        loadSidebar: true,
+        coverpage: true,
+        subMaxLevel: 2,
+        maxLevel: 4,
+        autoHeader: true,
+        search: {
+            paths: 'auto',
+            placeholder: '🔍 搜索 ',
+            noData: '抱歉，没有找到您想要的文章！',
+            // Headline depth, 1 - 6
+            depth: 3
+        },
+        copyCode: {
+            buttonText : '复制代码',
+            errorText  : '复制失败',
+            successText: '复制成功'
+        },
+        pagination: {
+            previousText: '上一篇',
+            nextText: '下一篇'
+        },
+        ga:'UA-134930998-1'
+    }
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<!--语法高亮插件-->
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+
+<!--图片缩放插件-->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<!--搜索插件-->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<!--代码块复制插件-->
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+<!--分页插件-->
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<!--Google Analytics-->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+</body>
+</html>
