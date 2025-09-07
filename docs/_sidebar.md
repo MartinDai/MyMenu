@@ -50,7 +50,7 @@
   
   - [清炒菜心](vegetable/清炒菜心.md)
   
-  - [家常炒花菜](vegetable/家常炒花菜.md)
+  - [家常炒花菜](vegetable/干锅花菜.md)
   
   - [番茄炒蛋](vegetable/番茄炒蛋.md)
   
